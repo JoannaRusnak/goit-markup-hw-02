@@ -1,24 +1,13 @@
+
 {
-  "editor.bracketPairColorization.enabled":true,
-  "workbench.colorCustomizations":{ 
-  "liveServer.settings.donotShowInfoMsg":true,
-  "explorer.confirmDragAndDrop":false,
-  "editor.wordWrap":"on",
-  "editor.formatOnSave":true,
-  "editor.defaultFormatter":"esbend.prettier-vscode",
-  "editor.linkedEditing":true,
-  "editor.cursorBlinking":"expand",
-  "files.autoSave":"afterDelay"
-  },
-
-  "trailingComma": "es5",
-  "tabWidth": 4,
-  "semi": false,
-  "singleQuote": false,
-  "emmet.syntaxProfiles":{
-		"html": {
-			"inline_break": 2
-		}
-	} 
-
+	"printWidth": 100,
+	"tabWidth": 2,
+	"useTabs": false,
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"jsxBracketSameLine": false,
+	"arrowParens": "avoid",
+	"proseWrap": "always"
 }
